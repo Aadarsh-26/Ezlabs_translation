@@ -1,0 +1,6 @@
+version: '3.8'
+services:
+  web:
+    build: ./infra/dockerfiles/web
+  worker:
+    build: ./infra/dockerfiles/worker
